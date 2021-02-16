@@ -43,12 +43,12 @@ async def hmm(event):
         	return
     st = await event.client(GetFullUserRequest(event.sender_id))
     user_text = f"""**Hello {st.user.first_name},
-Welcome To {Config.ACCOUNT_GEN_NAME} Account Generator Bot
+Welcome To Voot Account Generator Bot
 
 To Know About commands type:
 /cmds
 
-Bot Made With ❤️ By @DevseXpo**
+Bot Made With ❤️ By @ExploitzBots**
 """ 
     await event.reply(user_text) 
     
@@ -65,7 +65,7 @@ My Commands Are As Follows:
 
 /start - To Restart Bot..!
 /cmds - To Get Help Menu
-/generate - To Generate Zee5 Accounts
+/generate - To Generate Voot Accounts
 /about - To Get Your Current Info
 
 Share And Support Us...❤️**
