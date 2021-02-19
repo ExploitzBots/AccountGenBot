@@ -1,4 +1,4 @@
-#    Copyright (C) Midhun KM 2020-2021
+9#    Copyright (C) Midhun KM 2020-2021
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -48,7 +48,7 @@ Welcome To {Config.ACCOUNT_GEN_NAME} Account Generator Bot
 To Know About commands type:
 /cmds
 
-Bot Made With ❤️ By @ExploitzBots**
+Bot Made With ❤️ By @MadPremium**
 """ 
     await event.reply(user_text) 
     
