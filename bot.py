@@ -65,7 +65,7 @@ My Commands Are As Follows:
 
 /start - To Restart Bot..!
 /cmds - To Get Help Menu
-/generate - To Generate Voot Accounts
+/generate - To Generate Netflix Accounts
 /about - To Get Your Current Info
 
 Share And Support Us...❤️**
