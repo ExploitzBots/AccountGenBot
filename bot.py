@@ -37,9 +37,9 @@ warnerstarkbot = bot.start(bot_token=Config.BOT_TOKEN)
 @warnerstarkbot.on(events.NewMessage(pattern="^/start$"))
 async def hmm(event):
     if Config.JTU_ENABLE:
-    	starky = await check_if_subbed(Config.CHANNEL_USERNAME, event, warnerstarkbot)
+    	starky = await check_if_subbed(Config.CHANNEL_USERNAME,CHANNEL_USERNAME2, event, warnerstarkbot)
     	if starky is False:
-        	await event.reply("**I am Sorry To Say That, To Access Me You Have To Be The Member Of Our Channel To Use This Bot..!**", buttons=[[custom.Button.url("Join Channel", Config.CHANNEL_URL)]])
+        	await event.reply("**I am Sorry To Say That, To Access Me You Have To Be The Member Of Our Channel To Use This Bot..!**", buttons=[[custom.Button.url("Join Channel", Config.CHANNEL_URL)],buttons=[[custom.Button.url("Join Channel", Config.CHANNEL_URL2)]])
         	return
     st = await event.client(GetFullUserRequest(event.sender_id))
     user_text = f"""**Hello {st.user.first_name},
