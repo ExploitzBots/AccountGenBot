@@ -57,7 +57,7 @@ Welcome To {Config.ACCOUNT_GEN_NAME} Account Generator Bot
 To Know About commands type:
 /cmds
 
-Bot Made With ❤️ By @DevseXpo**
+Bot Made With ❤️ By @UniqGiveawayz**
 """ 
     await event.reply(user_text) 
     
@@ -74,7 +74,7 @@ My Commands Are As Follows:
 
 /start - To Restart Bot..!
 /cmds - To Get Help Menu
-/generate - To Generate Zee5 Accounts
+/generate - To Generate Netflix Accounts
 /about - To Get Your Current Info
 
 Share And Support Us...❤️**
